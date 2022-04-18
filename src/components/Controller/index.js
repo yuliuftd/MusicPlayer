@@ -19,7 +19,8 @@ export default function Controller(props) {
     audioRef.current.onended = () => {
       setIsPlaying("no");
     };
-  }, [media.previewUrl, media.trackName]);
+    // eslint-disable-next-line
+  }, [media.previewUrl]);
   const onPlay = () => {
     if (isPlaying === "no") {
       audioRef.current.play();

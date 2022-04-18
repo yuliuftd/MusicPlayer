@@ -27,7 +27,8 @@ export default function Music(props) {
   useEffect(() => {
     setIsPlaying(currentPlaying.previewUrl);
     setPlayedList([...playedList, currentPlaying.previewUrl]);
-  }, [currentPlaying.previewUrl, playedList]);
+    // eslint-disable-next-line
+  }, [currentPlaying.previewUrl]);
   return (
     <div className="musciContainer">
       {list.results ? (

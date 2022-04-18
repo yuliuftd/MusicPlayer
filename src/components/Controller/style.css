@@ -1,0 +1,46 @@
+.controller {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 1080px;
+}
+.rightController {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 1080px;
+}
+@media (min-width :480px) {
+    .controller {
+        display: none;
+    }
+}
+.controllerText {
+    color: #fff;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    overflow: hidden;
+    height: 22px;
+}
+
+.btnwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnwrapper button {
+    background: grey;
+    border: none;
+    margin: 0px 25px;
+}

@@ -1,3 +1,10 @@
+a musicplayer built by ReactJS
+
+1.This app was been tested on Google Chrome.
+2.Search artist, play songs' preview, tick played songs, show playing songs, play and pause. All features are supported. Mobile features were finished. Desktop feature were almost finished. (a minor defect: When a new song was selected, and the previous song was playing at the same time(cuz we can not stop it playing), it will play 2 songs meanwhile)
+3.ReactJS, react-reponsive, iTunes affiliate API and some svg files.
+4.`npm install & npm run build` in Root Dirctory or see the details listed below. It can be deployed on Heroku.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
